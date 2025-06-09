@@ -34,6 +34,7 @@ const RAW_RUNTIME_STATE =
           ["@iconify-json/logos", "npm:1.2.4"],\
           ["@iconify-json/uil", "npm:1.2.3"],\
           ["@resvg/resvg-js", "npm:2.6.2"],\
+          ["@types/node", "npm:22.15.30"],\
           ["@typescript-eslint/parser", "virtual:be6b11b44080414190d9b6f44c36a52195227b8e7f1aa17b9e76515b30d870bb65d8c193b56bad20567ac0937930afbae40f226d0b1a4965dbae21d740834907#npm:8.34.0"],\
           ["@unocss/astro", "virtual:be6b11b44080414190d9b6f44c36a52195227b8e7f1aa17b9e76515b30d870bb65d8c193b56bad20567ac0937930afbae40f226d0b1a4965dbae21d740834907#npm:66.1.4"],\
           ["@unocss/reset", "npm:66.1.4"],\
@@ -7028,6 +7029,7 @@ const RAW_RUNTIME_STATE =
           ["@iconify-json/logos", "npm:1.2.4"],\
           ["@iconify-json/uil", "npm:1.2.3"],\
           ["@resvg/resvg-js", "npm:2.6.2"],\
+          ["@types/node", "npm:22.15.30"],\
           ["@typescript-eslint/parser", "virtual:be6b11b44080414190d9b6f44c36a52195227b8e7f1aa17b9e76515b30d870bb65d8c193b56bad20567ac0937930afbae40f226d0b1a4965dbae21d740834907#npm:8.34.0"],\
           ["@unocss/astro", "virtual:be6b11b44080414190d9b6f44c36a52195227b8e7f1aa17b9e76515b30d870bb65d8c193b56bad20567ac0937930afbae40f226d0b1a4965dbae21d740834907#npm:66.1.4"],\
           ["@unocss/reset", "npm:66.1.4"],\
@@ -7998,7 +8000,7 @@ const RAW_RUNTIME_STATE =
           ["@types/esbuild", null],\
           ["@types/jiti", null],\
           ["@types/less", null],\
-          ["@types/node", null],\
+          ["@types/node", "npm:22.15.30"],\
           ["@types/sass", null],\
           ["@types/sass-embedded", null],\
           ["@types/stylus", null],\

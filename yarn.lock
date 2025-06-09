@@ -1899,7 +1899,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
+"@types/node@npm:*, @types/node@npm:^22.15.30":
   version: 22.15.30
   resolution: "@types/node@npm:22.15.30"
   dependencies:
@@ -6152,6 +6152,7 @@ __metadata:
     "@iconify-json/logos": "npm:^1.2.4"
     "@iconify-json/uil": "npm:^1.2.3"
     "@resvg/resvg-js": "npm:^2.6.2"
+    "@types/node": "npm:^22.15.30"
     "@typescript-eslint/parser": "npm:^8.34.0"
     "@unocss/astro": "npm:^66.1.4"
     "@unocss/reset": "npm:^66.1.4"
