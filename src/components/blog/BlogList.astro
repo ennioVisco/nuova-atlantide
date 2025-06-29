@@ -7,11 +7,13 @@ interface Props {
 }
 
 const { posts } = Astro.props;
+// Filter out the manifesto post
+const filteredPosts = posts.filter(post => post.id !== 'manifesto');
 ---
 
 <ul class='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
   {
-    posts.map((post) => {
+    filteredPosts.map((post) => {
       return (
         <li>
           <BlogSummaryCard post={post} />

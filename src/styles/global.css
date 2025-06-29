@@ -119,3 +119,15 @@ html {
 {
   background-color: aliceblue;
 }
+
+.home-title {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 1rem;
+  text-decoration: none;
+}
+
+.home-title p {
+  padding-top: 10px;
+}

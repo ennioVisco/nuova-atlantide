@@ -6,87 +6,80 @@ import { Pill } from '@eliancodes/brutal-ui';
 import { Button } from '@eliancodes/brutal-ui';
 import { Card } from '@eliancodes/brutal-ui';
 
-const builtWith = [
-  { name: 'Astro', url: 'https://astro.build/' },
-  { name: 'UnoCSS', url: 'https://uno.antfu.me/' },
-  {
-    name: 'Content Collections',
-    url: 'https://docs.astro.build/en/guides/content-collections/',
-  },
-  { name: 'RSS', url: 'https://docs.astro.build/en/guides/rss/' },
-  {
-    name: 'Sitemap',
-    url: 'https://docs.astro.build/en/guides/integrations-guide/sitemap/',
-  },
-  { name: 'Vercel', url: 'https://vercel.com' },
-  { name: 'TypeScript', url: 'https://www.typescriptlang.org/' },
+const keywords = [
+  { name: 'Innovazione' },
+  { name: 'Tecnologia' },
+  { name: 'AI' },
+  { name: 'Merito' },
+  { name: 'Ricerca' },
+  { name: 'Riforma' },
+  { name: 'Progresso' },
 ];
 ---
 
 <Layout
   title='Home'
-  pageTitle='Brutal Theme | Home'
-  description='Brutal is a minimalistic, neobrutalism theme for Astro.'
+  pageTitle='Nuova Atlantide | Home'
+  description="Nuova Atlantide - Un gruppo di pensiero per l'innovazione radicale nel Drin Drin"
 >
   <main class='bg-pink p-6'>
-    <MobileSocials />
-    <section id='about' class='grid md:grid-cols-8 gap-8 mt-4'>
-      <h2 class='hidden'>About Brutal</h2>
-      <div class='col-span-4'>
-        <Card>
-          <div class='flex flex-col justify-between items-start gap-4'>
-            <p class='mt-4 outfit text-2xl md:text-5xl lg:text-7xl'>
-              Brutal theme for <a
-                class='text-white'
-                target='_blank'
-                href='https://astro.build/'>Astro</a
-              >
+    <!-- <MobileSocials /> -->
+    <section id='about' class='grid grid-cols-1 md:grid-cols-8 gap-8 mt-4'>
+      <h2 class='hidden'>Su Nuova Atlantide</h2>
+      <div class='col-span-1 md:col-span-4 flex'>
+        <Card class="w-full">
+          <div class='flex flex-col justify-between h-full'>
+            <p class='mt-4 outfit text-2xl md:text-5xl lg:text-6xl'>
+              Un gruppo di pensiero per l'innovazione radicale nel Drin Drin
             </p>
-            <p class='mt-2 outfit text-xl md:text-3xl lg:text-5xl'>
-              A minimalistic, neobrutalism theme for Astro.
-            </p>
-            <Button target={'_self'} href='/blog/'>
-              Check out the blog &rarr;
-            </Button>
+            <!-- <p class='mt-2 outfit text-xl md:text-3xl lg:text-5xl'>
+              
+            </p> -->
+            <div class="flex justify-end w-full">
+              <Button target={'_self'} href='/blog/manifesto/'>
+                Leggi il manifesto &rarr;
+              </Button>
+            </div>
           </div>
         </Card>
       </div>
-      <div class='col-span-2'>
-        <Card>
-          <h2 class='text-2xl md:text-4xl lg:text-6xl mb-8 dm-serif'>
-            Brutal is built with
-          </h2>
-          <ul class='flex gap-4 flex-wrap'>
-            {
-              builtWith.map((item) => (
-                <li>
-                  <Pill>
-                    <a
-                      class='sanchez'
-                      href={item.url}
-                      target='_blank'
-                      title={`Go to ${item.name}`}
-                    >
-                      {item.name}
-                    </a>
-                  </Pill>
-                </li>
-              ))
-            }
-          </ul>
+      <div class='col-span-1 md:col-span-2 flex'>
+        <Card class="w-full">
+          <div class="flex flex-col h-full">
+            <h2 class='text-2xl md:text-4xl lg:text-6xl mb-8 dm-serif'>
+              Le nostre parole chiave
+            </h2>
+            <ul class='flex gap-4 flex-wrap'>
+              {
+                keywords.map((item) => (
+                  <li>
+                    <Pill>
+                      <span class='sanchez'>
+                        {item.name}
+                      </span>
+                    </Pill>
+                  </li>
+                ))
+              }
+            </ul>
+          </div>
         </Card>
       </div>
-      <div class='col-span-2'>
+      <div class='col-span-1 md:col-span-2 flex'>
+        <Card class="w-full">
+          <div class="flex flex-col h-full">
+            <h2 class='text-2xl md:text-4xl lg:text-6xl mb-4 dm-serif'>
+              Chi siamo
+            </h2>
+            <p class='poppins'>
+              Nuova Atlantide è un gruppo di pensiero dedicato all'innovazione radicale nel Drin Drin, 
+              promuovendo idee e iniziative per il progresso tecnologico e sociale.
+            </p>
+                  <div class='col-span-1 md:col-span-2'>
         <Card>
-          <h2 class='text-2xl md:text-4xl lg:text-6xl mb-4 dm-serif'>
-            What is Brutal?
-          </h2>
-          <p class='poppins'>
-            Brutal is a theme built with Astro, UnoCSS by <a
-              href='https://www.elian.codes/'>Elian</a
-            >. It's a simple, fast, and modern theme that is easy to use and
-            customize. Mainly meant to power blogs and personal websites.
-          </p>
+          <p class='sanchez text-lg font-bold text-center'>
+              Dal 31 al 5 si vota, fai la scelta giusta.
+            </p>
         </Card>
       </div>
     </section>

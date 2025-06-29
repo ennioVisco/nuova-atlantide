@@ -12,3 +12,5 @@ dist
 !.yarn/versions
 
 .env.local
+
+.DS_Store
