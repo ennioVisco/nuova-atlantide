@@ -68,7 +68,7 @@ La tecnologia deve servire l'uomo, non il contrario. L'innovazione è il mezzo t
 
 Chiamiamo a raccolta tutti i Drinners che credono in questa visione:
 
-- I giovani che non vogliono poter realizzare i propri sogni  
+- I giovani che vogliono poter realizzare i propri sogni  
 - Gli imprenditori stanchi di combattere contro il giogo della burocrazia  
 - I ricercatori che vogliono vedere il proprio lavoro trasformarsi in impatto reale  
 - I professionisti che credono nel potenziale inespresso del nostro Paese  
