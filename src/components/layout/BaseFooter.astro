@@ -1,6 +1,4 @@
 ---
-import logoUrl from '../../../public/logo.svg';
-
 export interface Props {
   backToTop?: boolean;
 }
@@ -38,7 +36,7 @@ const { backToTop = false } = Astro.props;
 <footer class='bg-black text-white p-6'>
   <h2 class='hidden'>Footer</h2>
   <div class="flex items-center gap-2">
-    <img src={logoUrl} alt='Nuova Atlantide' class='h-8 invert' />
+    <img src='nuova-atlantide/logo.svg' alt='Nuova Atlantide' class='h-8 invert' />
     <p class='outfit'>
       Nuova Atlantide - Un gruppo di pensiero per l'innovazione radicale nel Drin Drin
     </p>
