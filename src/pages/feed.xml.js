@@ -15,6 +15,6 @@ export async function GET(context) {
       link: `/blog/${post.id}/`,
     })),
     customData: '<language>it-it</language>',
-    canonicalUrl: 'https://nuova-atlantide.it',
+    canonicalUrl: 'https://enniovisco.github.io/nuova-atlantide',
   });
 }
