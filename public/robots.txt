@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
-Host: https://nuova-atlantide.it/
-Sitemap: https://nuova-atlantide.it/sitemap-index.xml
+Host: https://https://enniovisco.github.io/nuova-atlantide/
+Sitemap: https://https://enniovisco.github.io/nuova-atlantide/sitemap-index.xml
